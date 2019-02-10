@@ -12,8 +12,8 @@ import EditBoardScreen from './components/EditBoardScreen';
 const RootStack = createStackNavigator(
   {
     Board: BoardScreen,
-  //  BoardDetails: BoardDetailScreen,
-  //  AddBoard: AddBoardScreen,
+    BoardDetails: BoardDetailScreen,
+    AddBoard: AddBoardScreen,
     EditBoard: EditBoardScreen,
   },
   {
